@@ -1,0 +1,12 @@
+<form> 
+    <div>
+    <span> 
+       <input type = "text" placeholder = "schedule new task"
+       [ngModelOptions]="{standalone: true}" [(ngModel)]="newTask">
+       <button (click)="addTask(newTomorrowTask)">Add to Schedule</button>
+    </span>
+    
+          <ul *ngFor = "let task of tasks">{{task.task}}</ul>
+    
+     </div>
+    </form>

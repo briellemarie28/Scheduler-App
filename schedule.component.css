@@ -1,0 +1,17 @@
+
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+button {
+    text-decoration: none;
+    background-color: lightcoral;
+    color: #fff;
+}
+
